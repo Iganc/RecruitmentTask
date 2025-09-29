@@ -1,0 +1,10 @@
+account,date,amount,currency,title
+DAILY,2009-11-10,8300,PLN,Salary Oct/2009
+DAILY,2009-11-12,-2100,PLN,Transfer for flat rent
+DAILY,2009-11-12,-1343.23,PLN,Transfer for flat media
+DAILY,2009-12-01,-86.59,PLN,[Card payment] coffee and cookie
+DAILY,2009-12-01,-28,PLN,2x espresso Gpay
+DAILY,2009-12-01,12000,PLN,transfer
+DAILY,2009-12-01,8300,PLN,Salary Nov/2009
+DAILY,2009-12-01,-4500,PLN,internal transfer
+SAVINGS,2009-12-01,4500,PLN,internal transfer
