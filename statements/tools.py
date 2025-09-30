@@ -32,7 +32,7 @@ def statement_import(file_handler):
                 statements_cache[key] = statement
 
             statement_items_to_create.append(
-                StatementItem(statement=statement, amount=amount, currency=currency)
+                StatementItem(statement=statement, amount=amount, currency=currency, title=row.get('title', ''), comments=row.get('comments', ''))
             )
             idx += 1
 
@@ -45,4 +45,3 @@ def statement_import(file_handler):
         StatementItem.objects.bulk_create(statement_items_to_create, batch_size=1000)
 
         return idx
-
